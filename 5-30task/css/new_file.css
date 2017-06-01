@@ -1,0 +1,76 @@
+body,h3{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+.box{
+	width: 700px;
+	height: 408px;
+	padding: 1px 30px 21px 13px;
+	margin: 20px auto;
+}
+.head{
+	height: 66px;
+	line-height: 66px;
+}
+h3{
+	font: 26px "微软雅黑";
+	border-left: 5px solid #ff7800;
+	color: #333333;
+	float: left;
+	padding-left: 10px;
+}
+.txt{
+	font: 14px "微软雅黑";
+	color: #0f820c;
+	float: left;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+.content1{
+	width: 700px;
+	height: 158px;
+}
+.list{
+	width: 160px;
+	height: 158px;
+	font: 12px/23px "宋体";
+	float: left;
+	margin-right: 20px;
+}
+.list4{
+	width: 160px;
+	height: 158px;
+	font: 12px/23px "宋体";
+	float: left;
+	margin-right: 0;
+}
+.img-name{
+	color: #515151;
+	margin-top: 5px;
+	display: block;
+}
+.word{
+	color: #61828d;
+}
+.explain{
+	color: #8b8b8b;
+	display: block;
+}
+.num{
+	background: url(../img/arrows.jpg) no-repeat 0 1px;
+	padding-left: 14px;
+	line-height: 23px;
+	color: #a3a3a3;
+}
+time{
+	color: #aba3b7;
+}
+.content1{
+	margin-bottom: 20px;
+}
