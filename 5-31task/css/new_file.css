@@ -51,11 +51,11 @@ a{
 	border-right: 1px solid #d8d8d8;
 	font: 12px "宋体";
 	color: #0f820c;
-	padding-right: 7px;
+	padding-left: 8px;
 }
 .no{
 	border: none;
-	padding: 0;
+	padding-right: 0;
 }
 .classify{
 	float: right;
