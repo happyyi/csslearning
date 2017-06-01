@@ -1,0 +1,18 @@
+body,dl,dd{
+	margin: 0;
+}
+.item{
+	width: 197px;
+	height: 363px;
+	background: #ffffff;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	float: left;
+	margin: 50px auto;
+	font: 12px "宋体";
+	color: #3c3c3c;
+}
+.rb{
+	border-right: 1px solid #e8e8e8;
+}
