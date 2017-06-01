@@ -1,0 +1,105 @@
+body,h3{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.big-box{
+	width: 333px;
+	height: 484px;
+	padding: 14px 15px 10px 19px;
+	margin: 50px auto;
+}
+.head{
+	line-height: 52px;
+	height: 52px;
+}
+.title{
+	background: url(../img/head-bg.jpg) no-repeat 10px 0;
+	text-indent: -9999px;
+	height: 26px;
+	border-left: 5px solid #8bcc00;
+	width: 122px;
+	float: left;
+	margin-top: 13px;
+}
+.big-btn{
+	float: left;
+	margin: 11px 0 0 7px;
+}
+.btn-2{
+	margin-left: 10px;
+}
+.spans{
+	border-right: 1px solid #d8d8d8;
+	font: 12px "宋体";
+	color: #0f820c;
+	padding-right: 7px;
+}
+.no{
+	border: none;
+	padding: 0;
+}
+.classify{
+	float: right;
+}
+.list{
+	margin-top: 13px;
+}
+.item{
+	height: 36px;
+	font: 14px/36px "宋体";
+	color: #515151;
+}
+.item-left{
+	width: 128px;
+	float: left;
+}
+.right-time{
+	float: right;
+}
+.right-btn{
+	float: right;
+	margin-top: 13px;
+	height: 11px;
+}
+.family{
+	color: #0f820c;
+}
+.right-btn{
+	display: none;
+}
+.item:hover .right-time{
+	display: none;
+}
+.item:hover .right-btn{
+	display: block;
+}
+.item:hover{
+	border-bottom: 1px dashed #e1e1e1;
+	height: 35px;
+}
+.item:hover .family{
+	color: #05b600;
+}
+.classify .spans:hover{
+	font: bold 12px "宋体";
+	color: #333333;
+}
