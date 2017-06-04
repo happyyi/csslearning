@@ -1,0 +1,150 @@
+/*css reset*/
+body,h3{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/*清浮动工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*css style*/
+.big-box{
+	margin: 50px auto;
+	width: 701px;
+	font: 12px "微软雅黑";
+}
+.head h3{
+	float: left;
+	width: 69px;
+	height: 31px;
+	background: url(../img/logo.jpg) no-repeat 0 1px;
+	font: 22px/22px "微软雅黑";
+	padding: 6px 0 0 47px;
+}
+.head nav{
+	float: left;
+	width: 454px;
+	height: 36px;
+	border-bottom: 1px solid #e6e9f0;
+	font: 16px/36px "微软雅黑";
+}
+.head nav a{
+	color: #21211f;
+	float: left;
+}
+.head nav .nav-a1{
+	margin-left: 5px;
+}
+.head nav .nav-a2{
+	margin-left: 30px;
+}
+.head nav .nav-a3{
+	margin-left: 40px;
+}
+.head nav .nav-a4{
+	margin-left: 40px;
+}
+.head nav .nav-a5{
+	margin-left: 41px;
+}
+.head nav .nav-a6{
+	margin-left: 32px;
+}
+.head nav .nav-a7{
+	margin-left: 31px;
+}
+.head nav .nav-a8{
+	margin-left: 41px;
+}
+.head nav a:hover{
+	color: #00a3d8;
+	border-bottom: 1px solid #00a3d8;
+}
+.left-btn{
+	width: 104px;
+	height: 34px;
+	border: 1px solid #f35c8f;
+	margin-right: 24px;
+	float: right;
+	font: 12px/34px "微软雅黑";
+	text-align: center;
+}
+.left-btn a{
+	color: #f15d8f;
+}
+.list .name:hover{
+	color: #F35C8F;
+}
+.content{
+	height: 198px;
+	padding-top: 29px;
+}
+.content li{
+	float: left;
+}
+.content li a,span{
+	float: left;
+}
+.content img{
+	margin-right: 12px;
+}
+.content .list-width{
+	width: 161px;
+	margin-right: 72px;
+}
+.list .name-width{
+	font: 12px/12px "微软雅黑";
+	color: #222224;
+	width: 77px;
+	height: 53px;
+}
+.list .renewal{
+	font: 12px/18px "微软雅黑";
+	color: #ada9a8;
+	height: 18px;
+	width: 36px;
+	margin-right: 5px;
+}
+.list .num{
+	width: 36px;
+	height: 18px;
+	background: url(../img/num.jpg) no-repeat;
+	color: #fffff2;
+	text-align: center;
+}
+.content .bottom-list1{
+	margin-top: 36px;
+	width: 179px;
+}
+.list .name2-width{
+	font: 12px/12px "微软雅黑";
+	color: #222224;
+	width: 95px;
+	height: 53px;
+}
+.content .bottom-list2{
+	margin: 36px 0 0 54px;
+	width: 173px;
+}
+.list .name3-width{
+	font: 12px/18px "微软雅黑";
+	color: #222224;
+	width: 89px;
+	height: 53px;
+}

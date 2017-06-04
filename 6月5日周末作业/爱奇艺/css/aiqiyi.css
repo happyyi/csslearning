@@ -1,0 +1,71 @@
+/*css reset*/
+boby,h3{
+	margin: 0px;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/*清浮动工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*style*/
+.box{
+	width: 640px;
+	height: 406px;
+	border: 1px solid #d9d9d9;
+	padding: 16px 19px 25px 19px;
+	margin: 50px auto;
+}
+.head{
+	height: 40px;
+}
+.title{
+	width: 86px;
+	height: 40px;
+	background: url(../img/6-1head.jpg) no-repeat;
+	text-indent: -9999px;
+}
+.head-nav{
+	margin-left: 14px;
+	font: 12px/40px "微软雅黑";
+	height: 40px;
+	width: 535px;
+}
+.head-nav a{
+	margin-right: 17px;
+}
+.head-nav .nav-span{
+	margin-right: 5px;
+	width: 37px;
+	background: url(../img/6-1img1.jpg) no-repeat 26px 17px;
+}
+.list{
+	width: 112px;
+	height: 180px;
+	font: 12px/31px "微软雅黑";
+	margin-right: 20px;
+}
+.no-mr{
+	margin-right: 0px;
+}

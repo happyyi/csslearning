@@ -1,0 +1,79 @@
+/*css reset*/
+body,h4{
+	margin: 0;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*浮动,清浮动工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*css style*/
+.big-box{
+	width: 696px;
+	height: 613px;
+	background: #fffff9;
+	margin: 50px auto;
+}
+.head{
+	height: 37px;
+	border-bottom: 1px solid #dddddd;
+	background: #fffff9;
+}
+.head h4{
+	font: 18px/37px "微软雅黑";
+}
+.head .more{
+	font: 12px/37px "宋体";
+	margin-right: 3px;
+	color: #825d5b;
+}
+.width110{
+	width: 110px;
+}
+.list{
+	width: 110px;
+	margin-top: 23px;
+}
+.margin-right36{
+	margin-right: 36px;
+}
+.margin-right37{
+	margin-right: 37px;
+}
+.list .book-name{
+	font: bold 14px/26px "宋体";
+	color: #825d5b;
+	margin-top: 2px;
+}
+.list .line-height{
+	font: 12px/24px "宋体";
+}
+.list .writer{
+	color: #333333;
+}
+.list .book-money{
+	color: #825d5b;
+}
+

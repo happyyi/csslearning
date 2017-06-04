@@ -1,0 +1,107 @@
+/*css reset*/
+body,h4{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+/*清浮动工具*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+/*板块样式*/
+.box{
+	width: 970px;
+	height: 421px;
+	margin: 20px auto;
+}
+.item{
+	width: 140px;
+	height: 417px;
+	border-top: 3px solid #addf7e;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	font: 14px "宋体";
+	color: #3d3d3d;
+	padding: 0 11px 0 10px;
+	float: left;
+}
+.box .item-right{
+	border-right: 1px solid #dddddd;
+	padding: 0 9px;
+	width: 140px;
+}
+.title{
+	height: 41px;
+	background: url(../img/head-bg.jpg) no-repeat 40px 13px;
+	text-indent: -9999px;
+}
+.content-1{
+	height: 264px;
+	border-bottom: 1px dashed #d9d9d9;
+}
+.content-1 .a-img1{
+	float: left;
+	border: 1px solid #dedee0;
+	padding: 1px;
+}
+.list{
+	font: 14px/23px "宋体";
+	color: #3d3d3d;
+}
+.book{
+	width: 8px;
+	height: 10px;
+	float: right;
+	background: url(../img/describe.jpg) no-repeat;	
+	text-indent: -9999px;
+	margin-top: 7px;
+}
+.span-tx{
+	color: #b8b8b8;
+	font-family: arial;
+	font-size: 12px;
+}
+.top{
+	margin-top: 7px;
+}
+.content-2{
+	height: 110px;
+}
+.span-btm{
+	font: 12px/21px "宋体";
+	color: #aaaaaa;
+}
+.content2 .list-1{
+	margin-top: 12px;
+	font: 14px/21px "宋体";
+	color: #3e3e3e;
+}
+.content2 .list-2{
+	margin-top: 4px;
+	font: 14px/21px "宋体";
+	color: #3e3e3e;
+}
+.content-2 .list{
+	margin-top: 12px;
+}
+.content-2 .list1{
+	margin-top: 4px;
+}

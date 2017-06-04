@@ -1,0 +1,130 @@
+/*css reset*/
+body,h4{
+	margin: 0;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*浮动，清浮动工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*css style*/
+.big-box{
+	width: 230px;
+	height: 463px;
+	padding: 12px 36px 12px 7px;
+	margin: 50px auto;
+}
+.game-life{
+	width: 228px;
+	height: 463px;
+	border-top: 1px solid #d0d1cc;
+	border-right: 1px solid #c4c3be;
+	border-bottom: 1px solid #c4c3be;
+	border-left: 1px solid #d0d1cc;
+}
+.head{
+	width: 228px;
+	height: 37px;
+	margin: 1px 0;
+	background: #f3f3f3;
+}
+.head h4{
+	width: 112px;
+	font: bold 12px/36px "微软雅黑";
+	margin: 1px 0 0 14px;
+	color: #393939;
+}
+.head a{
+	font: 12px/34px "宋体";
+	color: #999999;
+	margin: 3px 15px 0 0;
+}
+.list1{
+	width: 228px;
+	height: 102px;
+	border-top: 1px solid #dddddd;
+	margin-top: 0px;
+}
+.ico{
+	width: 40px;
+	height: 71px;
+	margin: 12px 8px 0 14px;
+}
+.ico .like{
+	width: 40px;
+	height: 24px;
+	font: 12px/20px "宋体";
+	color: #799a17;
+	padding-top: 2px;
+	background: url(../img/like.jpg) no-repeat;
+	text-align: center;
+	margin-top: 7px;
+}
+.intro{
+	width: 166px;
+	height: 90px;
+}
+.intro .user-name{
+	font: 12px/19px arial;
+	margin-top: 11px;
+}
+.intro .logo{
+	margin-top: 12px;
+	margin-right: 112px;
+}
+.intro .font{
+	font: 12px/18px "宋体";
+	color: #5f80a9;
+	width: 147px;
+}
+.intro .color{
+	color: #999999;
+}
+.intro .width52{
+	width: 52px;
+}
+.list2{
+	width: 200px;
+	height: 101px;
+	border-top: 1px dashed #cecece;
+	border-bottom: 1px dashed #cecece;
+	margin: 0 14px;
+}
+.list2 .ml-0{
+	margin: 14px 8px 0 0;
+}
+.list2 .dnf{
+	font: 12px/12px "宋体";
+	margin-top: 19px;
+}
+.list2 .widthMax{
+	width: 152px;
+}
+.content .no-btm{
+	border-bottom: none;
+}
+.no-btm .width72{
+	width: 72px;
+}

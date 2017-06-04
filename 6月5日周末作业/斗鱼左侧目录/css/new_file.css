@@ -1,0 +1,145 @@
+/*css reset*/
+body,h4{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+/*清浮动工具*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*css style*/
+.big-box{
+	width: 233px;
+	height: 588px;
+	margin: 50px auto;
+}
+.head-nav{
+	height: 170px;
+}
+.top-link{
+	float: left;
+	width: 205px;
+	height: 25px;
+	border-bottom: 1px solid #313131;
+	font: 14px/18px "微软雅黑";
+	color: #c7c7c5;
+	background: #2c2c2c;
+	padding: 8px 0 0 28px;
+}
+.top-link img{
+	margin-right: 12px;
+}
+.head-nav .all{
+	height: 25px;
+	padding-top: 7px;
+}
+.top-link:hover{
+	background: #282828;
+	color: #ff6700;
+}
+.content1{
+	padding: 5px 10px 14px 17px;
+	height: 25px;
+	background: #2c2c2c;
+	margin-top: -1px;
+}
+.content1 .content1-a{
+	float: left;
+	width: 92px;
+	height: 22px;
+	font: 14px/16px "微软雅黑";
+	color: #c7c7c5;
+	padding: 8px 0 0 11px;
+}
+.content1-a img{
+	margin-right: 7px;
+}
+.content1-a:hover{
+	background: #ff6600;
+}
+.content1 .move:hover{
+	border-bottom: 2px solid #ff6600;
+}
+.content2{
+	width: 206px;
+	height: 129px;
+	background: #2c2c2c;
+	padding: 0 10px 18px 17px;
+}
+.content2 h4{
+	height: 21px;
+	line-height: 14px;
+	background: url(../img/border-left.jpg) no-repeat 1px 3px;
+	padding-left: 15px;
+	font: 14px "微软雅黑";
+	color: #cbc9cc;
+}
+.center-nav a{
+	width: 66px;
+	height: 24px;
+	float: left;
+	font: 12px/24px "微软雅黑";
+	color: #d4cbcc;
+	text-align: center;
+	margin: 4px 4px 0 0;
+	background: #3f3f3f;
+}
+.center-nav .no-mr{
+	margin-right: 0;
+}
+.center-nav a:hover{
+	color: #f25439;
+}
+.content3{
+	width: 206px;
+	height: 101px;
+	background: #2c2c2c;
+	padding: 0 10px 18px 17px;
+}
+.content3 h4{
+	height: 21px;
+	line-height: 14px;
+	font: 14px "微软雅黑";
+	color: #cbc9cc;
+	background: url(../img/border-left.jpg) no-repeat 1px 3px;
+	padding-left: 15px;
+}
+.content4{
+	width: 206px;
+	height: 73px;
+	background: #2c2c2c;
+	padding: 0 10px 17px 17px;
+}
+.content4 h4{
+	height: 21px;
+	line-height: 14px;
+	font: 14px "微软雅黑";
+	color: #cbc9cc;
+	background: url(../img/border-left.jpg) no-repeat 1px 3px;
+	padding-left: 15px;
+}
+.footer{
+	height: 14px;
+	background: #2c2c2c;
+	font: 12px/12px "微软雅黑";
+	padding: 0 10px 0 17px;
+}
+.footer a{
+	color: #bebfc1;
+	float: left;
+	margin-left: 10px;
+}
+.footer .ml{
+	margin-left: 17px;
+}

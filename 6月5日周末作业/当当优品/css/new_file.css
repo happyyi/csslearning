@@ -1,0 +1,80 @@
+/*css reset*/
+body{
+	margin: 0;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*浮动,清浮动工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*css style*/
+.big-box{
+	width: 941px;
+	height: 593px;
+	padding: 7px 18px 12px 9px;
+	margin: 50px auto;
+}
+.box{
+	width: 940px;
+	height: 592px;
+	border-right: 1px solid #dfdedd;
+	border-bottom: 1px solid #dfdedd;
+	border-left: 1px solid #dfdedd;
+}
+.list{
+	width: 234px;
+	height: 295px;
+	border-top: 1px solid #05a790;
+	border-bottom: 1px solid #dfdedd;
+	border-right: 1px solid #dfdedd;
+	background: url(../img/list-bg.jpg) repeat-x;
+/*	margin-right: -1px;*/
+}
+.list .apparel{
+	margin: 11px 17px 6px 17px;
+}
+.list .name{
+	font: 12px/19px "宋体";
+	margin-left: 21px;
+	width: 187px;
+}
+.list .money{
+	color: #cc0000;
+	font: 14px/14px "宋体";
+	margin: 7px 167px 0 17px;
+}
+.list .del{
+	color: #878787;
+	font: 12px/12px "宋体";
+	margin: 8px 0 0 17px;
+}
+.list .buy{
+	width: 56px;
+	height: 22px;
+	background: url(../img/buy.jpg) no-repeat;
+	text-align: center;
+	font: 12px/22px "宋体";
+	color: #404040;
+}

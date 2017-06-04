@@ -1,0 +1,102 @@
+/*css reset*/
+body{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*浮动，清浮动工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*css style*/
+.big-box{
+	width: 990px;
+	height: 115px;
+	background: #fafafa;
+	margin: 50px auto;
+	padding: 18px 12px 11px 8px;
+}
+.content{
+	width: 988px;
+	height: 113px;
+	border: 1px solid #ffffff;
+	background: #f3f3f3;
+}
+.list{
+	width: 968px;
+	height: 34px;
+	margin-left: 10px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.list a{
+	font: 12px/34px "宋体";
+	color: #444444;
+}
+.list a span{
+	color: #9487a2;
+}
+.list .bold{
+	font-weight: bold;
+}
+.list .all{
+	width: 34px;
+	text-align: center;
+	margin-left: 29px;
+}
+.list .margin-l{
+	margin-left: 20px;
+}
+.list .more{
+	width: 42px;
+	height: 34px;
+	background: url(../img/more.jpg) no-repeat 28px 8px;
+	color: #ff9900;
+}
+.list .arrows{
+	height: 22px;
+	margin-left: 10px;
+	font: 12px/22px "宋体";
+	margin-top: 6px;
+	text-align: center;
+}
+.list .arrows102{
+	width: 102px;
+	background: url(../img/arrows102.jpg) no-repeat;
+	font-size: 0;
+}
+.list .arrows78{
+	width: 78px;
+	background: url(../img/arrows78.jpg) no-repeat;
+	font-size: 0;
+}
+.list .arrows90-1{
+	width: 90px;
+	background: url(../img/arrows90-1.jpg) no-repeat;
+	font-size: 0;
+}
+.list .margin-l29{
+	margin-left: 29px;
+	background: url(../img/arrows129.jpg) no-repeat;
+	font-size: 0;
+}
+.list .arrows90-2{
+	width: 90px;
+	background: url(../img/arrows90-2.jpg) no-repeat;
+	font-size: 0;
