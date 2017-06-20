@@ -1,0 +1,15 @@
+.index .content .banner{
+	margin-top: 0;
+}
+.index .lar{
+	display: none;
+}
+.index .content .party_bottom nav a{
+	color: #fff;
+}
+.index .content .party_bottom .more a{
+	color: #fff58b;
+}
+.index .content .party_bottom .guard .guard_bottom{
+	overflow: hidden;
+}

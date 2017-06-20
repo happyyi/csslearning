@@ -1,0 +1,124 @@
+/*工具类*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.index .content .banner .banner_left .classify1 dd .color_af{
+	color: #af5cea;
+}
+.index .content .banner .banner_left .classify1 .ps21{
+	background-position: 0 -21px !important;
+}
+.index .content .banner .banner_ad a .btns .fff{
+	background-color: #fff;
+}
+.index .content .banner .banner_ad a .btns .mr_left16{
+	margin-left: 16px;
+}
+.index .content .lump .mr0{
+	margin-right: 0;
+}
+.index .content .lump li a .padding0{
+	padding-left: 0;
+}
+.index .content .lump ul .bg_2{
+	background: url(../img/lump2.jpg) no-repeat;
+}
+.index .content .lump ul .bg_3{
+	background: url(../img/lump3.jpg) no-repeat;
+}
+.index .content .banner_right ul .right_none{
+	border-right: none;
+}
+/*雪碧图位移量*/
+.index .content .banner_right ul li .ico1{
+	background-position: 0 -74px;
+}
+.index .content .banner_right ul li .ico2{
+	background-position: 0 -114px;
+}
+.index .content .banner_right ul li .ico3{
+	background-position: 0 -154px;
+}
+.index .content .banner_right ul li .ico4{
+	background-position: 0 -194px;
+}
+.index .content .banner_right ul li .ico5{
+	background-position: 0 -234px;
+}
+.index .content .banner_right ul li .ico6{
+	background-position: 0 -274px;
+}
+.index .content .banner_right ul li .ico7{
+	background-position: 0 -314px;
+}
+.index .content .banner_right ul li .ico8{
+	background-position: 0 -354px;
+}
+.index .content .banner_right ul li .ico9{
+	background-position: 0 -394px;
+}
+.index .content .banner_right ul li .ico10{
+	background-position: 0 -434px;
+}
+.index .content .banner_right ul li .ico11{
+	background-position: 0 -474px;
+}
+.index .content .party_bottom .guard .guard_bottom .ract .talk i{
+	background-position: -597px 0;
+} 
+.index .content .goods_left dl dt .intro .time .data .talk1{
+	background-position: -597px 8px;
+}
+/*雪碧图位移量*/
+/*活动板块定位*/
+.index .content .party ul .li1{
+	left: 86px;
+	bottom: 115px;
+}
+.index .content .party ul .li2{
+	left: 234px;
+	bottom: 115px;
+}
+.index .content .party ul .li3{
+	left: 382px;
+	bottom: 115px;
+}
+.index .content .party ul .li4{
+	left: 86px;
+	bottom: 29px;
+}
+.index .content .party ul .li5{
+	left: 234px;
+	bottom: 29px;
+}.index .content .party ul .li6{
+	left: 382px;
+	bottom: 29px;
+}
+/*活动板块定位 END*/
+/*字体颜色修改*/
+.index .content .party_bottom nav .teshu{
+	color: #fff58b;
+}
+.red{
+	color: #f04848;
+}
+.title{
+	font: 14px/14px "微软雅黑";
+	color: #333333;
+}
+.index .content .party_bottom .hot ul li div .money a{
+	font: 12px/29px "微软雅黑";
+	float: left;
+	color: #f26666;
+}
