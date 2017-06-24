@@ -74,13 +74,42 @@
 .index .content .banner_right ul li .ico11{
 	background-position: 0 -474px;
 }
-.index .content .party_bottom .guard .guard_bottom .ract .talk i{
-	background-position: -597px 0;
-} 
-.index .content .goods_left dl dt .intro .time .data .talk1{
-	background-position: -597px 8px;
+.index .content .goods_left dl dt .intro .time .data .talk1 i{
+	background-position: -597px 1px;
 }
-/*雪碧图位移量*/
+.index .content .goods_left dl dd .message1 .num span .i2{
+	background-position: -597px 0;
+}
+.index .content .goods2 header .title .logo2{
+	width: 172px !important;
+	background-position: -66px -235px !important;
+}
+.index .content .goods2 header .title .logo3{
+	width: 171px !important;
+	background-position: -66px -357px !important;
+}
+.index .content .goods2 header .title .logo4{
+	width: 112px !important;
+	background-position: -66px -474px !important;
+}
+.index .content .goods2 header .title .logo5{
+	width: 112px !important;
+	background-position: -66px -587px !important;
+}
+.index .content .goods2 header .title .logo6{
+	width: 112px !important;
+	background-position: -66px -696px !important;
+}
+.index .content .life ul li .ietm_top .person2{
+	background-position: -357px -91px;
+}
+.index .content .life ul li .ietm_top .person3{
+	background-position: -446px -91px;
+}
+.index .content .life ul li .ietm_top .person4{
+	background-position: -537px -91px;
+}
+/*雪碧图位移量 END*/
 /*活动板块定位*/
 .index .content .party ul .li1{
 	left: 86px;
@@ -121,4 +150,79 @@
 	font: 12px/29px "微软雅黑";
 	float: left;
 	color: #f26666;
+}
+.index .content .goods_left dl dd .message1 .text .money{
+	color: #f04848;
+}
+.index .content .goods_left dl dd .message1 .click .a1{
+	color: #f04848;
+	border-radius: 6px 0 0 6px;
+}
+.index .content .goods_left dl dd .message1 .click .a2{
+	color: #a9a9a9;
+	margin-left: -1px;
+	border-radius: 0 6px 6px 0;
+}
+.index .content .goods2 header .title nav .color{
+	color: #5188a6;
+}
+.index .content .goods2 header .title nav .more1{
+	color: #666666;
+	width: 85px;
+	border-left: 1px solid #aaaaaa;
+	margin-left: 8px;
+	padding-left: 19px;
+}
+.index .content .goods2 .article .article_left li .right_txt .link .evaluate .color{
+	color: #f48080;
+}
+.index .content .goods2 .list .item1 .item_top .cr1{
+	color: #e25b25 !important;
+}
+.index .content .goods2 .list .item1 .item_top .label .c1{
+	background-color: #ed9c7c;
+}
+.index .content .goods2 .list .item1 .item_top .cr2{
+	color: #7047a9 !important;
+	white-space: nowrap;
+}
+.index .content .goods2 .list .item1 .item_top .cr3{
+	color: #3541a0 !important;
+}
+.index .content .goods2 .list .item1 .item_top .c3 a{
+	background-color: #858dc6 !important;
+}
+.index .content .goods2 .list .item1 .item_top .cr4{
+	color: #ab1c1c !important;
+}
+.index .content .goods2 .list .item1 .item_top .c4{
+	width: 200px;
+}
+.index .content .goods2 .list .item1 .item_top .c4 a{
+	background-color: #cc7676 !important;
+}
+.index .content .goods2 .list .item1 .item_top .cr5{
+	color: #166b14 !important;
+}
+.index .content .goods2 .list .item1 .item_top .c5{
+	width: 220px;
+}
+.index .content .goods2 .list .item1 .item_top .c5 a{
+	background-color: #72a571 !important;
+}
+/*去边框*/
+.index .content .goods_left dl .no_border{
+	border-bottom: none;
+}
+/*清楚外边距*/
+.index .content .base .base_left .huati ul .no_mr{
+	margin-right: 0;
+}
+.index .content .base .base_left .huati ul .no_mrb{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+.index footer .copy .text nav .margin0{
+	margin-right: 0;
 }
